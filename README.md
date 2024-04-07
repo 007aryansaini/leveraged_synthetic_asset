@@ -7,6 +7,13 @@ This contract allows users to open leveraged positions on a synthetic asset usin
  The synthetic asset price is assumed to be fixed for simplicity, and users can recover tokens other than the collateral token.
  Leverage can be increased but must be decreased cautiously to avoid liquidation risks.
 
+ 
+
+ ### Contract address on BSC Testnet
+ 
+- **BSC Testnet** : [`0x6fb4c4a7971bf19569ac44e70d0ede045a06ee1c`](https://testnet.bscscan.com/address/0x6fb4c4a7971bf19569ac44e70d0ede045a06ee1c)
+
+
 ## Some important Steps before running below commands
 
 ### Install node modules required for this project
