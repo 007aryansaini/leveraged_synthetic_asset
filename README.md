@@ -1,8 +1,11 @@
-# Stable Coin ( nUSD )
+# Contract Details
 
-This is a Stable Coin which is minted based on the price of ETH/BNB that is fetched from oracle.
-It allows users to deposit ETH/BNB and receive 50% of its value in nUSD.
-The amount of nUSD required to convert to ETH is double the value.
+This contract allows users to open leveraged positions on a synthetic asset using a collateral token.
+ Users can deposit collateral, open long or short positions, close positions, and adjust leverage.
+ Leverage is used to determine the ratio of synthetic asset tokens that can be obtained per unit of collateral.
+ Opening a position increases exposure to the synthetic asset, while closing a position reduces exposure.
+ The synthetic asset price is assumed to be fixed for simplicity, and users can recover tokens other than the collateral token.
+ Leverage can be increased but must be decreased cautiously to avoid liquidation risks.
 
 ## Some important Steps before running below commands
 
