@@ -36,4 +36,6 @@ npx hardhat run --network bscTestnet scripts/deploy.js
 npx hardhat test
 ```
 
+### Test cases and gas cost scrrenshot
+
 ![Alt text](https://github.com/007aryansaini/leveraged_synthetic_asset/blob/main/TestCasesAndGasFees.png)
